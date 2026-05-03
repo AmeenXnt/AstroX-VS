@@ -1,0 +1,59 @@
+let menuSettings = {
+  'imageLink': "https://v7-tool.vercel.app/PNG/menu.png",
+  'botName': "🍓𝐊𝐞𝐢𝐤𝐨 𝐕𝟓⛄",
+  'ownerName': "🤍AͣᴍͫᴇͤᴇͤɴIͥɴᴛⷮ🌨️"
+};
+let handler = async (_0x848a9f, {
+  conn: _0x6ccf1e,
+  usedPrefix: _0x243d6f,
+  command: _0x43848c,
+  text: _0x2ee65c
+}) => {
+  if (_0x43848c === "editmenu") {
+    let [_0x83ee27, _0x1d90ee, _0x57ea79] = _0x2ee65c.split(';');
+    if (_0x83ee27) {
+      menuSettings.imageLink = _0x83ee27;
+    }
+    if (_0x1d90ee) {
+      menuSettings.botName = _0x1d90ee;
+    }
+    if (_0x57ea79) {
+      menuSettings.ownerName = _0x57ea79;
+    }
+    _0x848a9f.reply("✅ Menu settings updated successfully!");
+  } else {
+    if (_0x43848c === "menu") {
+      const _0x45ebd9 = {
+        'key': {
+          'participants': '916238768108@s.whatsapp.net',
+          'remoteJid': "status@broadcast",
+          'fromMe': false,
+          'id': "Halo"
+        },
+        'message': {
+          'contactMessage': {
+            'vcard': "BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:y\nitem1.TEL;waid=" + _0x848a9f.sender.split('@')[0x0] + ':' + _0x848a9f.sender.split('@')[0x0] + "\nitem1.X-ABLabel:Ponsel\nEND:VCARD"
+          }
+        },
+        'participant': "0@s.whatsapp.net"
+      };
+      let _0x13ffdb = "┌─❖\n│「 𝗛ey 👋🏻 」\n└┬❖ 「 *🍓𝐊𝐞𝐢𝐤𝐨 𝐕𝟓⛄ ㋡* 」\n  │\n  │❖ *HOST:* VPS \n  │  \n  │❖ *OWNER:* 🤍AͣᴍͫᴇͤᴇͤɴIͥɴᴛⷮ🌨️\n  │\n  │❖ *DEVELOPER:* " + author + "\n  │\n  │❖ *BOT:* *𝐊𝐞𝐢𝐤𝐨 𝐕𝟕⚡*\n  │\n  │❖ *VERSION:* 3.7.0\n  │\n  └─────────────┈ ⳹\n  ┌─❖\n│「 " + "🍓𝐊𝐞𝐢𝐤𝐨 𝐕𝟓⛄" + " 」\n│\n│    ⚠️ Made By\n│               𝐂𝐚𝐥𝐜𝐢𝐅𝐞𝐫⚡㋡ \n│         \n└┬❖ 「 *Owner Menu* 」\n   │\n   │✺ " + _0x243d6f + "*On/Off* public\n   │✺ " + _0x243d6f + "*On/Off* autoreact \n   │✺ " + _0x243d6f + "update \n   │✺ " + _0x243d6f + "sudo\n   │✺ " + _0x243d6f + "autoadmin\n   │✺ " + _0x243d6f + "left\n   │✺ " + _0x243d6f + "banchat\n   │✺ " + _0x243d6f + "unbanchat\n   │✺ " + _0x243d6f + "ban\n   │✺ " + _0x243d6f + "unban\n   │✺ " + _0x243d6f + "banlist\n   │✺ " + _0x243d6f + "block\n   │✺ " + _0x243d6f + "unblock\n   │✺ " + _0x243d6f + "blocklist\n   │✺ " + _0x243d6f + "bc\n   │✺ " + _0x243d6f + "bcgc\n   │✺ " + _0x243d6f + "join\n   │✺ " + _0x243d6f + "restart\n   │✺ " + _0x243d6f + "setpp\n   │✺ " + _0x243d6f + "setprefix\n   │✺ " + _0x243d6f + "resetprefix\n   │✺ " + _0x243d6f + "resetuser\n   │✺ " + _0x243d6f + "getfile\n   │✺ " + _0x243d6f + "getplugin \n   └─────────────┈ ⳹\n   ┌─❖「 *Bot Menu* 」\n   │\n   │✺ " + _0x243d6f + "ping\n   │✺ " + _0x243d6f + "uptime\n   │✺ " + _0x243d6f + "enable\n   │✺ " + _0x243d6f + "alive\n   │✺ " + _0x243d6f + "owner\n   │✺ " + _0x243d6f + "report\n   │✺ " + _0x243d6f + "bot\n   │✺ " + _0x243d6f + "worker\n   │✺ " + _0x243d6f + "runtime\n   │✺ " + _0x243d6f + "infobot\n   │✺ " + _0x243d6f + "donate\n   │✺ " + _0x243d6f + "groups\n   │✺ " + _0x243d6f + "blocklist\n   │✺ " + _0x243d6f + "listprem\n   └─────────────┈ ⳹\n   ‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎\n   ┌─❖「 *Fun Menu* 」\n   │\n   │✺ " + _0x243d6f + "Love\n   │✺ " + _0x243d6f + "moon\n   │✺ " + _0x243d6f + "question \n   │✺ " + _0x243d6f + "character \n   │✺ " + _0x243d6f + "truth\n   │✺ " + _0x243d6f + "dare \n   │✺ " + _0x243d6f + "flirt\n   │✺ " + _0x243d6f + "gay\n   │✺ " + _0x243d6f + "meme\n   │✺ " + _0x243d6f + "ship\n   │✺ " + _0x243d6f + "kill\n   │✺ " + _0x243d6f + "kiss\n   │✺ " + _0x243d6f + "pat\n   │✺ " + _0x243d6f + "slap\n   │✺ " + _0x243d6f + "waste\n   │✺ " + _0x243d6f + "simpcard\n   │✺ " + _0x243d6f + "hornycard\n   │✺ " + _0x243d6f + "ytcomment\n   │✺ " + _0x243d6f + "stupid\n   │✺ " + _0x243d6f + "lolicon\n   └─────────────┈ ⳹\n   ┌─❖「 *Downloader Menu* 」\n   │\n   │✺ " + _0x243d6f + "song\n   │✺ " + _0x243d6f + "play\n   │✺ " + _0x243d6f + "apk\n   │✺ " + _0x243d6f + "yts\n   │✺ " + _0x243d6f + "insta *link*\n   │✺ " + _0x243d6f + "img\n   │✺ " + _0x243d6f + "pinterest \n   │✺ " + _0x243d6f + "mediafire *link*\n   │✺ " + _0x243d6f + "gdrive *link*\n   │✺ " + _0x243d6f + "gitclone *link*\n   │✺ " + _0x243d6f + "twitter *link*\n   │✺ " + _0x243d6f + "tiktok *link*\n   │✺ " + _0x243d6f + "tiktokstalk\n   │✺ " + _0x243d6f + "spotify \n   │✺ " + _0x243d6f + "fb *link*\n   └─────────────┈ ⳹\n   ┌─❖「 *Group Menu* 」\n   │\n   │✺ " + _0x243d6f + "kick *@tag*\n   │✺ " + _0x243d6f + "promote *@tag*\n   │✺ " + _0x243d6f + "demote *@tag*\n   │✺ " + _0x243d6f + "infogroup\n   │✺ " + _0x243d6f + "getbio *@tag*\n   │✺ " + _0x243d6f + "resetlink\n   │✺ " + _0x243d6f + "link\n   │✺ " + _0x243d6f + "*On/Off* antilink\n   │✺ " + _0x243d6f + "*On/Off* antidelete\n   │✺ " + _0x243d6f + "invite\n   │✺ " + _0x243d6f + "setppgc *image*\n   │✺ " + _0x243d6f + "setname *text*\n   │✺ " + _0x243d6f + "setdesc *text*\n   │✺ " + _0x243d6f + "setwelcome *text*\n   │✺ " + _0x243d6f + "setbye *text*\n   │✺ " + _0x243d6f + "hidetag *text/image/audio*\n   │✺ " + _0x243d6f + "warn *@tag*\n   │✺ " + _0x243d6f + "unwarn *@tag*\n   │✺ " + _0x243d6f + "listwarn\n   │✺ " + _0x243d6f + "listnum\n   │✺ " + _0x243d6f + "kicknum\n   │✺ " + _0x243d6f + "group *Open/Close*\n   │✺ " + _0x243d6f + "tagall\n   └─────────────┈ ⳹\n   ┌─❖「 *Economy Menu* 」\n   │\n   │✺ " + _0x243d6f + "claim/daily\n   │✺ " + _0x243d6f + "weekly\n   │✺ " + _0x243d6f + "monthly\n   │✺ " + _0x243d6f + "leaderboard\n   │✺ " + _0x243d6f + "bet\n   │✺ " + _0x243d6f + "heal\n   │✺ " + _0x243d6f + "craft\n   │✺ " + _0x243d6f + "balance\n   │✺ " + _0x243d6f + "shop\n   │✺ " + _0x243d6f + "sell\n   │✺ " + _0x243d6f + "adventure\n   │✺ " + _0x243d6f + "opencreate\n   │✺ " + _0x243d6f + "mine\n   │✺ " + _0x243d6f + "work\n   │✺ " + _0x243d6f + "transfer\n   │✺ " + _0x243d6f + "todaimond\n   │✺ " + _0x243d6f + "tomoney\n   └─────────────┈ ⳹\n   ┌─❖「 *Tool Menu* 」\n   │\n   │✺ " + _0x243d6f + "autosticker\n   │✺ " + _0x243d6f + "pdf\n   │✺ " + _0x243d6f + "whatmusic\n   │✺ " + _0x243d6f + "tempmail\n   │✺ " + _0x243d6f + "checkmail\n   │✺ " + _0x243d6f + "pokedex\n   │✺ " + _0x243d6f + "calc\n   │✺ " + _0x243d6f + "google\n   │✺ " + _0x243d6f + "lyrics\n   │✺ " + _0x243d6f + "readmore\n   │✺ " + _0x243d6f + "ssweb\n   │✺ " + _0x243d6f + "tts\n   │✺ " + _0x243d6f + "trt\n   │✺ " + _0x243d6f + "wiki\n   │✺ " + _0x243d6f + "nowa\n   │✺ " + _0x243d6f + "qrmaker\n   │✺ " + _0x243d6f + "true\n   │✺ " + _0x243d6f + "fancy\n   │✺ " + _0x243d6f + "weather\n   │✺ " + _0x243d6f + "alexa\n   │✺ " + _0x243d6f + "itunes\n   │✺ " + _0x243d6f + "technews\n   └─────────────┈ ⳹\n   ┌─❖「 *Converter Menu* 」\n   │\n   │✺ " + _0x243d6f + "toanime\n   │✺ " + _0x243d6f + "tomp3\n   │✺ " + _0x243d6f + "toimg\n   │✺ " + _0x243d6f + "tovid\n   └─────────────┈ ⳹\n   ┌─❖「 *Sticker Menu* 」\n   │\n   │✺ " + _0x243d6f + "sticker\n   │✺ " + _0x243d6f + "take\n   │✺ " + _0x243d6f + "smaker\n   │✺ " + _0x243d6f + "getsticker\n   │✺ " + _0x243d6f + "emix\n   │✺ " + _0x243d6f + "attp\n   └─────────────┈ ⳹\n   ┌─❖「 *Game Menu* 」\n   │\n   │✺ " + _0x243d6f + "tictactoe\n   │✺ " + _0x243d6f + "delttt\n   │✺ " + _0x243d6f + "math\n   │✺ " + _0x243d6f + "math answer\n   │✺ " + _0x243d6f + "ppt\n   │✺ " + _0x243d6f + "slot\n   │✺ " + _0x243d6f + "casino\n   └─────────────┈ ⳹\n   ┌─❖「 *NSFW Menu* 」\n   │\n   │✺ " + _0x243d6f + "*On* nsfw\n   │✺ " + _0x243d6f + "*Off* nsfw\n   │✺ " + _0x243d6f + "hentais *text*\n   │✺ " + _0x243d6f + "xnxxdl *link*\n   └─────────────┈ ⳹\n   ┌─❖「 *Anime Menu* 」\n   │\n   │✺ " + _0x243d6f + "waifu\n   │✺ " + _0x243d6f + "neko\n   │✺ " + _0x243d6f + "loli\n   │✺ " + _0x243d6f + "naruto\n   │✺ " + _0x243d6f + "itachi\n   │✺ " + _0x243d6f + "akira\n   │✺ " + _0x243d6f + "asuna\n   │✺ " + _0x243d6f + "akiyama\n   │✺ " + _0x243d6f + "boruto\n   │✺ " + _0x243d6f + "hornycard\n   │✺ " + _0x243d6f + "ayuzawa\n   │✺ " + _0x243d6f + "anna\n   │✺ " + _0x243d6f + "chiho\n   │✺ " + _0x243d6f + "chitoge\n   │✺ " + _0x243d6f + "deidara\n   │✺ " + _0x243d6f + "erza\n   │✺ " + _0x243d6f + "elaina\n   │✺ " + _0x243d6f + "emilia\n   │✺ " + _0x243d6f + "hestia\n   │✺ " + _0x243d6f + "hinata\n   │✺ " + _0x243d6f + "inori\n   │✺ " + _0x243d6f + "isuzu\n   │✺ " + _0x243d6f + "kagura\n   │✺ " + _0x243d6f + "kaori\n   │✺ " + _0x243d6f + "keneki\n   │✺ " + _0x243d6f + "kurumi\n   │✺ " + _0x243d6f + "madara\n   │✺ " + _0x243d6f + "mikasa\n   │✺ " + _0x243d6f + "miku\n   │✺ " + _0x243d6f + "minato\n   │✺ " + _0x243d6f + "nezuko\n   │✺ " + _0x243d6f + "sagiri\n   │✺ " + _0x243d6f + "sasuke\n   │✺ " + _0x243d6f + "sakura\n   │✺ " + _0x243d6f + "kotori\n   └─────────────┈ ⳹\n   ┌─❖「 *Audio Menu* 」\n   │\n   │✺ " + _0x243d6f + "bass\n   │✺ " + _0x243d6f + "blown\n   │✺ " + _0x243d6f + "deep\n   │✺ " + _0x243d6f + "earrape\n   │✺ " + _0x243d6f + "fat\n   │✺ " + _0x243d6f + "fast\n   │✺ " + _0x243d6f + "nightcore\n   │✺ " + _0x243d6f + "reverse\n   │✺ " + _0x243d6f + "squrrel\n   │✺ " + _0x243d6f + "slow\n   └─────────────┈ ⳹\n   ┌─❖「 *Random Menu* 」\n   │\n   │✺ " + _0x243d6f + "bts\n   │✺ " + _0x243d6f + "cr7\n   │✺ " + _0x243d6f + "cat\n   │✺ " + _0x243d6f + "coffee\n   │✺ " + _0x243d6f + "cartoon\n   │✺ " + _0x243d6f + "cyberspace\n   │✺ " + _0x243d6f + "couplepp\n   │✺ " + _0x243d6f + "dog\n   │✺ " + _0x243d6f + "doraemon\n   │✺ " + _0x243d6f + "ff\n   │✺ " + _0x243d6f + "hacker\n   │✺ " + _0x243d6f + "messi\n   │✺ " + _0x243d6f + "pubg\n   │✺ " + _0x243d6f + "pentol\n   │✺ " + _0x243d6f + "planet\n   │✺ " + _0x243d6f + "tech\n   │✺ " + _0x243d6f + "wpmountain\n   │✺ " + _0x243d6f + "wpgaming\n   │✺ " + _0x243d6f + "wprandom\n   └─────────────┈ ⳹\n  ";
+      _0x6ccf1e.sendFile(_0x848a9f.chat, "https://v7-tool.vercel.app/PNG/menu.png", "perfil.jpg", _0x13ffdb, _0x45ebd9, _0x848a9f);
+      _0x848a9f.react('🪀');
+      setTimeout(() => {
+        _0x6ccf1e.deleteMessage(_0x848a9f.chat, {
+          'id': sentMsg.key.id,
+          'remoteJid': _0x848a9f.chat,
+          'fromMe': true
+        });
+      }, 0x1d4c0);
+    }
+  }
+};
+handler.help = ["menu", "editmenu <newlink>;<newbotname>;<newownername>"];
+handler.tags = ["main"];
+handler.command = ["menu", 'editmenu'];
+export default handler;
+function pickRandom(_0x1c5cd8) {
+  return _0x1c5cd8[Math.floor(_0x1c5cd8.length * Math.random())];
+}
