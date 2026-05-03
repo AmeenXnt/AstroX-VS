@@ -15,7 +15,7 @@ RUN apt-get update && \
 # 2. Copy package files and install dependencies in the WORKDIR
 COPY package.json .
 
-RUN npm install && npm install qrcode-terminal
+RUN npm install
 
 # 3. Copy the rest of the application files
 COPY . .
